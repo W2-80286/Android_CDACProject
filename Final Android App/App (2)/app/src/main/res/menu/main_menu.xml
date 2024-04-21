@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_event"
+            android:title="Events"
+            android:icon="@drawable/events_icon"/>
+
+        <item
+            android:id="@+id/nav_venue"
+            android:title="Venue"
+            android:icon="@drawable/venue_icon"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_food"-->
+<!--            android:title="Food"-->
+<!--            android:icon="@drawable/food_icon"/>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_Equipment"-->
+<!--            android:title="Home"-->
+<!--            android:icon="@drawable/equipment_icon"/>-->
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/nav_bookevent"
+            android:title="BookEvent"
+            android:icon="@drawable/bookevent_icon"/>
+        <item
+            android:id="@+id/nav_details"
+            android:title="BookingDetails"
+            android:icon="@drawable/event_details_icon"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group4">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/profile_icon"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout_icon"/>
+
+    </group>
+</menu>
